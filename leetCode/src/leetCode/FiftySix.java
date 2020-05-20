@@ -1,3 +1,5 @@
+package leetCode;
+
 public class FiftySix {
 
     public static void main(String[] args) {
