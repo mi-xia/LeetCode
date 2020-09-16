@@ -1,6 +1,6 @@
 package leetCode;
 
-public class checkBalance {
+public class CheckBalance {
 
 
 

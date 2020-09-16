@@ -1,5 +1,7 @@
 package leetCode;
 
+import leetCode.dto.TreeNode;
+
 /**
  * https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/
  * 为什么下面那种方法不行？
