@@ -23,15 +23,15 @@ public class Solution {
 //        s.mergeTrees(t1,t2);
 //        System.out.println("");
 
-        OneHundredAndFortyTwo s = new OneHundredAndFortyTwo();
+        TwoHundredAndSix s = new TwoHundredAndSix();
 
-        ListNode head = new ListNode(3);
+        ListNode head = new ListNode(1);
         head.next = new ListNode(2);
-        head.next.next = new ListNode(0);
-        head.next.next.next = new ListNode(-4);
-        head.next.next.next.next = head.next;
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
 
-        s.detectCycle(head);
+        s.reverseList(head);
 
 
 
