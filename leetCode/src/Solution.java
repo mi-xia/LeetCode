@@ -23,18 +23,30 @@ public class Solution {
 //        s.mergeTrees(t1,t2);
 //        System.out.println("");
 
-        TwoHundredAndSix s = new TwoHundredAndSix();
+//        TwoHundredAndSix s = new TwoHundredAndSix();
+//
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//
+//        s.reverseList(head);
 
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
 
-        s.reverseList(head);
+//        One s = new One();
+//
+//        int[] ints = s.twoSum(new int[]{3, 2, 7, 11, 15}, 9);
+//        for (int i = 0; i < ints.length; i++) {
+//            int anInt = ints[i];
+//            System.out.println(anInt);
+//        }
 
 
+        ThirtyThree s = new ThirtyThree();
 
+        int res = s.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4});
+        System.out.println(res);
     }
 
 }
