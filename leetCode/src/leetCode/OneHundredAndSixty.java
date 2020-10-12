@@ -1,7 +1,9 @@
 package leetCode;
 
 
-
+/**
+ * https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/
+ */
 public class OneHundredAndSixty {
 
 
@@ -16,8 +18,9 @@ public class OneHundredAndSixty {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
-        if (headA == null || headB == null)
+        if (headA == null || headB == null){
             return null;
+        }
 
         ListNode a = headA;
         ListNode b = headB;
