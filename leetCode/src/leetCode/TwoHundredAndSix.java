@@ -33,9 +33,9 @@ public class TwoHundredAndSix {
 
     public ListNode reverseList2(ListNode head) {
 
-        if (head == null)
+        if (head == null) {
             return null;
-
+        }
         ListNode cur = head;
         ListNode pre = null;
         while (cur != null){
