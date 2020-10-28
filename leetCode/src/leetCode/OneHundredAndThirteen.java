@@ -15,8 +15,9 @@ public class OneHundredAndThirteen {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         List<Integer> curList = new ArrayList<Integer>();
-        if (root == null)
+        if (root == null) {
             return new ArrayList<List<Integer>>();
+        }
         dfs(root,sum,0, curList, result);
         return result;
     }
