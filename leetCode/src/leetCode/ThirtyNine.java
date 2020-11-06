@@ -49,37 +49,3 @@ public class ThirtyNine {
 
 }
 
-
-//
-//    private List<List<Integer>> result = new ArrayList<>();
-//
-//
-//    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-//
-//        doCombinationSum(candidates,target,new ArrayList<>(),0);
-//
-//        return result;
-//
-//    }
-//
-//
-//    void doCombinationSum(int[] candidates, int target, List<Integer> tmp, int index){
-//
-//        if (target < 0){
-//            return;
-//        }
-//
-//        if (target == 0){
-//            List<Integer> res = new ArrayList<>();
-//            res.addAll(tmp);
-//            result.add(res);
-//            return;
-//        }
-//
-//        for (int i = index; i < candidates.length; i++){
-//            tmp.add(candidates[i]);
-//            doCombinationSum(candidates,target - candidates[i],tmp,i);
-//            tmp.remove(tmp.size()-1 < 0 ? 0 : tmp.size()-1);
-//        }
-//
-//    }
