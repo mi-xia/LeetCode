@@ -15,7 +15,7 @@ public class FortyNine {
 
     public List<List<String>> groupAnagrams(String[] strs) {
 
-        Map<String,List<String>> result = new HashMap<>();
+        Map<String,List<String>> result = new HashMap<>(8);
 
         for (String s : strs){
             char[] tmp = s.toCharArray();
