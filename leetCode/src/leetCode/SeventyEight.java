@@ -39,6 +39,7 @@ public class SeventyEight {
             List<Integer> res = new ArrayList<>();
             res.addAll(tmp);
             result.add(res);
+            return;
         }
 
         for (int i = start; i < nums.length; i++){
