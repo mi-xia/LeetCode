@@ -2,6 +2,9 @@ import leetCode.*;
 import leetCode.dto.ListNode;
 import leetCode.dto.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
 
     public static void main(String[] args) {
@@ -47,6 +50,15 @@ public class Solution {
 
         int res = s.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4});
         System.out.println(res);
+
+
+        List<TreeNode> treeNodes = new ArrayList<>();
+        treeNodes.add(new TreeNode(1));
+        treeNodes.add(new TreeNode(2));
+        treeNodes.add(new TreeNode(3));
+        treeNodes.add(new TreeNode(4));
+        treeNodes.add(new TreeNode(5));
+
     }
 
 }
