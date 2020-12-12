@@ -12,12 +12,6 @@ public class OneHundredAndFourteen {
 
     public void flatten(TreeNode root) {
 
-        doFlatten(root);
-
-    }
-
-    public void doFlatten(TreeNode root) {
-
         if (root == null){
             return;
         }
@@ -34,6 +28,10 @@ public class OneHundredAndFourteen {
             root.right = root.left;
             root.left = null;
         }
+
+    }
+
+    public void doFlatten(TreeNode root) {
 
     }
 
