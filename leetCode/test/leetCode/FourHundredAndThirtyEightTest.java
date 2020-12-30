@@ -12,12 +12,18 @@ public class FourHundredAndThirtyEightTest {
 
     @Test
     public void test1() {
-        int[] res = new int[]{1,2,3,4,5};
-        int[] res2 = new int[]{1,2,3,4,5};
+//        int[] res = new int[]{1,2,3,4,5};
+//        int[] res2 = new int[]{1,2,3,4,5};
+//
+//        int rescode = res.hashCode();
+//        int res2code = res2.hashCode();
 
-        int rescode = res.hashCode();
-        int res2code = res2.hashCode();
+        System.out.println("/api/v1/stock/admin/biz/warehouse/asdasda".matches("/api/v1/stock/admin/biz/warehouse/\\d*"));
 
         System.out.println("");
     }
+
+
+
+
 }
